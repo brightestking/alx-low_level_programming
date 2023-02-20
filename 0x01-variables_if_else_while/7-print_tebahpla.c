@@ -3,17 +3,14 @@
 /**
  * main - prints the lowercase alphabet in reverse.
  *
- * Return: 0
+ * Return: Always 0
  */
 int main(void)
 {
-char current letter = 'z';
+char letter;
 
-while (current_letter >= 'a')
-{
-putchar(current_letter);
-current_letter--;
-}
+for (letter = 'z'; letter >= 'a'; letter--)
+putchar(letter);
 
 putchar('\n');
 
